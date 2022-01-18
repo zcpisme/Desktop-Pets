@@ -10,5 +10,7 @@ This is just a record for what I did recently, nothing special, and there are ot
 目前基于参考文章，额外实现了鼠标中键和左键同时按下能拖拽人物窗口（具体实现过程很笨，更优方法以后再探索），右键呼出按钮。按钮分别为，1）静音，2）当前地区室外温度，如果ip获取失败则为默认（我）城市坐标的温度，3）剩余可用内存
 
 关于为什么不做点击穿透，因为不会，刚学实在是操作不来，后续如果继续这个项目会更新。
+
 本来还想做使用openhardwaremonitor获取硬件温度等，但是不知道为什么读取不了，网上的解决方法都试过了，无果。
+
 天气的获取先基于ip，然后通过ip获取到当前城市经纬度，再通过经纬度接入openweather api（`https://openweathermap.org/api`），这里需要申请自己的key填入GetOpenWeatherMapWrapper.cs中,具体代码及文章参考https://blog.csdn.net/u014361280/article/details/108501931
