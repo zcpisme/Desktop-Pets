@@ -19,8 +19,8 @@ public class TestGetOpenWeatherMapWrapper : MonoBehaviour
     //GeoCoordinateWatcher watcher = new GeoCoordinateWatcher();
     private Text weatherInfo;
     string myip = "";
-    float lon = -117.79f;
-    float lat = 33.68f;
+    float lon = -118.41f;
+    float lat = 34.0194f;
     string ipurl = "http://ip-api.com/json/";
     IPforLoc myIPinfo;
 

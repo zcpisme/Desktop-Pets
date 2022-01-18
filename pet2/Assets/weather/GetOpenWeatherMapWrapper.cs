@@ -16,7 +16,7 @@ namespace XANTools
         //获取天气 url = "https://api.openweathermap.org/data/2.5/weather?lat=22.36&lon=114.11&appid=YourKey";
         string urlHeader = "https://api.openweathermap.org/data/2.5/weather?lat=";
         string urlMid = "&lon=";
-        string urlTailer = "&appid=282614f351f3cc9ecdedcc944aad1cec&units=metric";
+        string urlTailer = "&appid=YourKey&units=metric";
 
         // 天气数据
         private WeatherStruct weatherStructData;
