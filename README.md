@@ -22,4 +22,4 @@ This is just a record for what I did recently, nothing special, and there are ot
 
 模型用的网上随处可以下载的雷姆live2d模型，老模型了。
 
-禁止商用。
+禁止商用。No Commercial Use Allowed.
